@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext", "dom", "dom.iterable"], // dom and dom.iterable are needed for the DOM library (browser APIs)
+    "target": "esnext", // latest stable version of ECMAScript
+    "strict": true, // enforces all strict type-checking options
+    "skipLibCheck": true, // skip type checking of declaration files (~ avoid type check for your infinitely large node_modules folder)
+    "verbatimModuleSyntax": true, // forces you to import and export types using the import type syntax
+    "esModuleInterop": true, // allows you to use import syntax with CommonJS modules
+    "moduleDetection": "force", // every new file is a module by default, recommended in new projects,
+    "noUncheckedIndexedAccess": true // indexed accesses must always be checked
+  }
+}
